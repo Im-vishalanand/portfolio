@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    height: 3.5rem;
+    padding-left: 8rem;
+    padding-right: 6.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid rgb(235, 232, 232);
+}
+.navbar-left{
+    width: 35vw;
+    padding:0.43vh 0.43vh ;
+    font-size: 2vw;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.navbar-left:hover{
+    color: red;
+}
+.navbar-right{
+    width: 65vw;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    font-size: 1.5vw;
+}
+.navbar-rightright{
+    text-decoration: none;
+    color: rgb(83, 83, 83);
+}
+.navbar-rightright:hover{
+    color: red;
+}
+.main{
+    margin-left: 6.25rem;
+    margin-right: 6.25rem;
+}
+.info{
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: space-around;
+}
+.vishal-info{
+    font-size: 1.25rem;
+    padding-right: 2rem;
+
+}
+.vishal-pic img{
+    height: 15rem;
+    width: 15rem;
+    border-radius: 10rem;
+}
+.educ{
+    text-decoration: none;
+    color: red;
+}
+.container{
+    margin-left: 6.25rem;
+    margin-right: 6.25rem;
+    margin-bottom: 0.7rem;
+    padding: 15px;
+    color: rgb(83, 83, 83);
+    font-family: 'Open Sans', sans-serif;
+}
+.row1{
+    font-size: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+.row2{
+    display: flex;
+    margin-bottom: 0.5rem;
+}
+.column{              
+    width: 50vw;
+    text-decoration: none;
+}
+.row{
+    text-decoration: none;
+    color: rgb(32, 46, 240);
+}
+.row:hover{
+    color: red;
+}
